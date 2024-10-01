@@ -1,0 +1,42 @@
+print('Hello World')
+print('jupi, krenuli smo da napadamo Python!')
+a = ['margaring']
+print(a)
+print(type(a))
+
+#############################
+#######redosled operacija####
+#############################
+print (1 + 4 * 2+3-1)
+print ((2+2) * 10)
+
+############# sabiranje i dodela #########
+
+a = 30
+print (a)
+
+a += 20
+print(a)
+
+a -= 20
+print(a)
+
+#####operatori poredjenja####
+
+###########################
+#####logicki operatopri####
+###########################
+
+print(2<10 and 20>5)
+print(type(2<10 and 20>5))
+print(10>20)
+print(10>20 and 10>2)
+
+#OR - uslov je tacan ako je jedan od izraza tacan
+x=2
+print(x==2 or x==100)
+
+x=100
+y=100
+print(not(x==y))
+
