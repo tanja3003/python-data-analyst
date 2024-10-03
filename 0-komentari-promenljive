@@ -40,3 +40,23 @@ x=100
 y=100
 print(not(x==y))
 
+ime = 'Sneza'
+print (len(ime))
+print (ime.upper())
+print (ime.lower())
+
+word = "Ja sam neki STRING"
+
+team_lead = "Sloba je nas novi team lead."
+clean = team_lead.strip("Sloba")
+print(clean)
+print(team_lead.replace("Sloba","Milan"))
+
+words = ('Ovo', 'cemo', 'da', 'spojimo')
+spojiti = " ".join(words)
+print(spojiti)
+
+brojevi = [1,2,3,4,5]
+for broj in brojevi:
+    print(broj * 2)
+
