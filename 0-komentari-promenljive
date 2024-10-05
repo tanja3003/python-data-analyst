@@ -60,3 +60,11 @@ brojevi = [1,2,3,4,5]
 for broj in brojevi:
     print(broj * 2)
 
+ime = "Beni"
+godine = "4"
+print(ime + " je moj pas i ima " + str(godine) + " godine" ".")
+
+broj1 = 100
+broj2 = 200
+print(broj1 + broj2)
+print (type(broj1 + broj2))

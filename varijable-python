@@ -1,0 +1,19 @@
+x = "Tanja"
+x ="500"
+print(x)
+print(type(x))
+
+a, b, c = 30, 390, 3009
+print(c)
+
+x = y = z = 200
+print (x, y, z)
+
+
+#using function input(prompt)
+greeting = "Welcome to the Band Name Generator."
+question1 = "What's the name of the city you grew up in?"
+question2 = "What's your pet's name?"
+result = "Your band name could be "
+print(greeting)
+print(result + input(question1) + " " + input(question2))
